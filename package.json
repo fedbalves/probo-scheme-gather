@@ -1,0 +1,11 @@
+{
+  "name": "probo-scheme-gather",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/fedbalves/probo-scheme-gather",
+  "author": "Fernando Barros",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.5.4"
+  }
+}
