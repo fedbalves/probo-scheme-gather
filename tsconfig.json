@@ -1,0 +1,18 @@
+{
+  "exclude": ["node_modules"],
+  "compilerOptions": {
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "target": "es2019",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "build",
+    "rootDir": "./src",
+    "noImplicitAny": true,
+    "strict": true,
+    "noUnusedLocals": true,
+    "types": ["graphql"],
+    "allowSyntheticDefaultImports": true
+  },
+  "lib": ["es2015"]
+}

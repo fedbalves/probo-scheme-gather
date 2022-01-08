@@ -1,0 +1,19 @@
+version: "3"
+
+networks:
+  default:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.16.56.0/24
+
+services:
+  api-probo:
+    container_name: api-probo
+    build: .
+    env_file:
+      - ./.env
+    expose:
+      - 4000
+    ports:
+      - 4000:4000
